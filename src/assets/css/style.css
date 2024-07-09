@@ -1,0 +1,52 @@
+.contact-bg {
+    background: var(--Primary-50, #F9F5FF);
+}
+
+.f-input {
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: var(--Corner-radius-md, 8px);
+    border: 1px solid var(--Black-300, #D0D5DD);
+    background: var(--Black-white, #FFF);
+}
+
+.accordion-d-color {
+    color: var(--Text-Secondary, #667085);
+}
+
+.q-background {
+    border-radius: 16px;
+    background: var(--Gray-50, #F7F7F8);
+}
+
+.q-btn {
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: var(--Corner-radius-md, 8px);
+    background: var(--Primary-600, #6A3EE9);
+    color: #FFFFFF;
+}
+
+.f-btn {
+    display: flex;
+    padding: 12px var(--Corner-radius-Corner-radius-xl, 24px);
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: var(--Shadow-Shadow-md, 16px);
+    border: 1px solid var(--Border-Primary, #3038C6);
+    background: var(--Background-Primary, #3038C6);
+    color: #FFFFFF;
+}
+
+
+.f-p-color {
+    color: #98A2B3;
+}

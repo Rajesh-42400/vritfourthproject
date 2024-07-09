@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --asset-color: var(--Text-Brand, #434CE7);
+  --font-italic: italic;
+  --secondary-color: var(--Text-Inverted, #FFF);
+  --btn-s-b-color: var(--Border-Secondary, #D9DCFD);
+  --btn-s-color: var(--Background-Secondary, #F9F5FF);
+}
+
+.font-14-500-160 {
+  color: var(--Text-Primary, #101828);
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+}
+
+.font-18-400-150 {
+  color: var(--Gray-600, #595762);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.font-18-500-160 {
+  color: v var(--Black-500, #667085);
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 28.8px */
+}
+
+.font-18-600-130 {
+  color: var(--Text-Tertiary, #475467);
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.36px;
+}
+
+.font-20-600-120 {
+  color: var(--Text-Inverted, #FFF);
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.4px;
+}
+
+.font-22-400-160 {
+  color: var(--Text-Secondary, #667085);
+  font-family: Urbanist;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+}
+
+.font-28-600-140 {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 39.2px */
+}
+
+.font-36-600-140 {
+  color: var(--Text-Primary, #101828);
+  font-family: "Urbanist", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 50.4px */
+}
+
+.font-48-600-120 {
+  color: var(--Text-Primary, #101828);
+  font-family: "Urbanist", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 57.6px */
+}
+
+.font-72-400-110 {
+  color: var(--Text-Primary, #101828);
+  font-family: "Urbanist", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 79.2px */
+}
+
+.font-72-600-110 {
+  color: var(--Text-Primary, #101828);
+  font-family: "Urbanist", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 79.2px */
+}
+
+.asset-color {
+  color: var(--asset-color);
+}
+
+.menu-btn {
+  display: flex;
+  padding: 20px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: var(--Shadow-Shadow-md, 16px);
+  border: 1px solid var(--Background-Primary, #3038C6);
+  background: var(--Background-Primary, #3038C6);
+}
+
+.intro-btn {
+  display: flex;
+  padding: 20px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: var(--Shadow-Shadow-md, 16px);
+  border: 1px solid var(--Background-Primary, #3038C6);
+  background: var(--Background-Primary, #3038C6);
+}
+
+.intro-s-btn {
+  display: flex;
+  padding: 20px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: var(--Shadow-Shadow-md, 16px);
+  border: 1px solid var(--btn-s-b-color);
+  background: var(--btn-s-color);
+}
+
+.p-s-color {
+  color: var(--secondary-color);
+}
+
+.btn-s-font-color {
+  color: var(--Text-Brand, #434CE7);
+}
+
+.font-italic {
+  font-style: var(--font-italic);
+}
+
+.card-text-color {
+  color: #000;
+}
+
+.card-d-color {
+  color: var(--Text-Tertiary, #475467);
+}/*# sourceMappingURL=main.css.map */
